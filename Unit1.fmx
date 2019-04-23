@@ -111,6 +111,7 @@ object Form1: TForm1
     Position.Y = 476.000000000000000000
     TabOrder = 10
     Text = 'Commit'
+    OnClick = Button2Click
   end
   object Rectangle1: TRectangle
     Align = Top

@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects, FMX.StdCtrls, FMX.ScrollBox, FMX.Memo,
-  FMX.ListBox, FMX.Controls.Presentation, FMX.Edit;
+  FMX.ListBox, FMX.Controls.Presentation, FMX.Edit, System.JSON;
 
 type
   TForm1 = class(TForm)
@@ -23,10 +23,11 @@ type
     Button2: TButton;
     Rectangle1: TRectangle;
     Label6: TLabel;
+    procedure Button2Click(Sender: TObject);
   private
-    { Private declarations }
+
   public
-    { Public declarations }
+
   end;
 
 var
@@ -35,5 +36,27 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+  arq: TextFile;
+  linha: String;
+
+begin
+  AssignFile(arq, Edit1.Text);
+
+  {$I-}
+  Reset(arq);
+  {$I+}
+
+  while (not eof(arq)) do
+  begin
+   readln(arq, linha);
+
+   Memo1.Lines.Add(linha);
+  end;
+
+  CloseFile(arq);
+end;
 
 end.
