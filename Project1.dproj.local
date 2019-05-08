@@ -3,11 +3,11 @@
 	<Transactions>
     <Transaction>2019/04/22 12:56:33.000.166,=C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2019/04/22 12:57:46.000.610,=C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/04/22 13:17:16.000.200,C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\github_posts\Unit1.pas</Transaction>
-    <Transaction>2019/04/22 13:17:16.000.200,C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Unit1.fmx=F:\github_posts\Unit1.fmx</Transaction>
-    <Transaction>2019/04/22 13:17:51.000.973,C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\github_posts\Project1.dproj</Transaction>
+    <Transaction>2019/04/22 13:17:16.000.200,F:\github_posts\Unit1.pas=C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/22 13:17:16.000.200,F:\github_posts\Unit1.fmx=C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/04/22 13:17:51.000.973,F:\github_posts\Project1.dproj=C:\Users\KelvinSeibt\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile iOSSimulator="iPhone5" Android="FCAZB600R735"/>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
 	</ActiveMobileDevice>
 </BorlandProject>
